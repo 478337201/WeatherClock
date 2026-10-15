@@ -1,0 +1,27 @@
+mdk/wifi_defines.via
+
+# Keil 编译输出与本机界面
+mdk/Objects/
+mdk/Listings/
+mdk/DebugConfig/
+mdk/*.uvguix.*
+
+*.o
+*.d
+*.crf
+*.dep
+*.axf
+*.hex
+*.bin
+*.map
+*.lnp
+*.htm
+*.lst
+*.bak
+
+.vscode/
+Thumbs.db
+Desktop.ini
+
+# Qt 上位机构建目录
+host/build/
